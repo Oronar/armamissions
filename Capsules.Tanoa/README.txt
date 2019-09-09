@@ -2,13 +2,16 @@ Vehicle Vending Machines v1.0
 By Airlift
 
 
-There are two files that need to be copied into your mission folder.
+There are two files that need to be copied into your mission folder:
 1. addVendingMachineAction.sqf
 2. addVendingMachineEvent.sqf
 
-By default the RHS yellow smoke grenade is used. These do not interfere with normal use of yellow grenades so the change is mostly aesthetic.
+You will need to add the following to your initPlayerLocal.sqf:
+execVM "addVendingMachineEvent.sqf";
 
-If you wish to use a different type of grenade then you will need to change the _grenadeType variables in each of these files. You will need the object class name for the grenade and the magazine type for the grenade.
+By default the RHS yellow smoke grenade is used. 
+
+If you wish to use a different type of grenade then you will need to change the _grenadeType variables in each of these files. You will need the object class name for the grenade and the magazine type for the grenade. These do not interfere with normal use of yellow grenades so the change is mostly aesthetic.
 
 For the yellow smoke grenade these are "rhs_mag_m18_yellow" and "rhs_magazine_rhs_mag_m18_yellow" respectively.
 
