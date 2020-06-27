@@ -22,10 +22,26 @@ selectTerrorists = {
 	_terrorists = [];
 	for "_i" from 0 to _amount - 1 step 1 do
 	{
-		_terrorists pushBack (_civilians select _i);
+		_newTerrorist = _civilians select _i;
+		
+		_terrorists pushBack (_newTerrorist);
+		[_newTerrorist, "You are a terrorist! Find the nearby cache!", 15] call hintPlayer;
+		_newTerrorist addItem "ACRE_PRC343";
 	};
 
 	_terrorists;
+};
+
+hintPlayer = {
+	params ["_player", "_message", "_fadeTime"];
+
+	[_player, _message, _fadeTime] spawn {
+		params ["_player", "_message", "_fadeTime"];
+
+		_message remoteExec ["hint", _player];
+		sleep _fadeTime;
+		"" remoteExec ["hint", _player];		
+	};
 };
 
 setupTerroristStart = {
@@ -39,12 +55,7 @@ setupTerroristStart = {
 		_terroristPosition = _buildingPositions select _forEachIndex;
 		_x setPosATL _terroristPosition;
 		
-		[_x] spawn {
-			params ["_player"];
-			"You are a terrorist! Find the nearby cache!" remoteExec ["hint", _player];
-			sleep 15;
-			"" remoteExec ["hint", _player];		
-		};
+		
 		
 	} forEach _terrorists;
 

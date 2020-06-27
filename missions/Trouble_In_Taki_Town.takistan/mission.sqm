@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6357.6846,182.22333,11390.33};
-		dir[]={-0.19419017,-0.73238605,-0.65261626};
-		up[]={-0.20887543,0.68088824,-0.70196927};
-		aside[]={-0.95846874,3.3644028e-008,0.28519937};
+		pos[]={6301.979,69.738113,11255.746};
+		dir[]={-0.45445782,-0.56450528,-0.68908083};
+		up[]={-0.31080332,0.82541645,-0.47125971};
+		aside[]={-0.83480275,-1.9971776e-007,0.55056566};
 	};
 };
 binarizationWanted=0;
@@ -14368,7 +14368,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""hlc_rifle_akm_75rnd"",""rhs_weap_kar98k"",""rhs_weap_tt33""],[1,1,1]],[[""rhsgref_5Rnd_792x57_kar98k"",""rhs_mag_762x25_8"",""rhs_mag_f1"",""IEDUrbanSmall_Remote_Mag"",""IEDLandSmall_Remote_Mag"",""hlc_30Rnd_762x39_AP_ak_6L10""],[5,4,1,2,2,1]],[[""Binocular"",""ACE_fieldDressing"",""ACE_morphine"",""ACE_EarPlugs"",""ACRE_PRC343"",""CUP_V_OI_TKI_Jacket3_06""],[1,6,4,10,5,1]],[[],[]]],false]";
+							value="[[[[""hlc_rifle_akm_75rnd"",""rhs_weap_kar98k"",""rhs_weap_tt33""],[1,1,1]],[[""rhsgref_5Rnd_792x57_kar98k"",""rhs_mag_762x25_8"",""rhs_mag_f1"",""IEDUrbanSmall_Remote_Mag"",""IEDLandSmall_Remote_Mag"",""hlc_30Rnd_762x39_AP_ak_6L10""],[5,4,1,2,2,1]],[[""Binocular"",""ACE_fieldDressing"",""ACE_morphine"",""ACE_EarPlugs"",""CUP_V_OI_TKI_Jacket3_06""],[1,6,4,10,1]],[[],[]]],false]";
 						};
 					};
 				};
