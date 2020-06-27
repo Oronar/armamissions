@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6562.3628,353.07324,11652.899};
-		dir[]={-0.52222973,-0.59850973,-0.607678};
-		up[]={-0.39010707,0.80108368,-0.45393556};
-		aside[]={-0.75848907,1.3716635e-006,0.65183401};
+		pos[]={6357.6846,182.22333,11390.33};
+		dir[]={-0.19419017,-0.73238605,-0.65261626};
+		up[]={-0.20887543,0.68088824,-0.70196927};
+		aside[]={-0.95846874,3.3644028e-008,0.28519937};
 	};
 };
 binarizationWanted=0;
@@ -28,15 +28,18 @@ addons[]=
 	"A3_Missions_F_Oldman",
 	"A3_Ui_F",
 	"CUP_Creatures_People_Civil_Takistan",
+	"A3_Weapons_F",
+	"CUP_Creatures_Military_TakiInsurgents",
+	"ace_medical",
+	"CUP_Creatures_Military_USArmy",
+	"CUP_Creatures_Military_Taki",
 	"rhsusf_c_troops",
 	"rhsusf_c_weapons",
 	"rhsusf_sounds",
 	"rhsusf_weapon_sounds",
 	"ace_compat_rhs_usf3",
-	"A3_Weapons_F",
 	"acre_main",
 	"A3_Weapons_F_Items",
-	"ace_medical",
 	"ace_explosives",
 	"A3_Weapons_F_Explosives",
 	"ace_realisticnames",
@@ -55,7 +58,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=26;
 		class Item0
 		{
 			className="A3_Missions_F_Oldman";
@@ -77,132 +80,147 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="rhsusf_c_troops";
-			name="RHSUSF Infantry & Equipment";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item4
-		{
-			className="rhsusf_c_weapons";
-			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item5
-		{
-			className="rhsusf_sounds";
-			name="USF Sounds";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item6
-		{
-			className="rhsusf_weapon_sounds";
-			name="USF Sounds";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item7
-		{
-			className="ace_compat_rhs_usf3";
-			name="ACE3 - RHS USF Compatibility";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item8
-		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item4
 		{
-			className="acre_main";
-			name="ACRE2 - Main";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
+			className="CUP_Creatures_Military_TakiInsurgents";
+			name="CUP_Creatures_Military_TakiInsurgents";
 		};
-		class Item10
+		class Item5
 		{
 			className="ace_medical";
 			name="ACE3 - Medical";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
+		class Item6
+		{
+			className="CUP_Creatures_Military_USArmy";
+			name="CUP_Creatures_Military_USArmy";
+		};
+		class Item7
+		{
+			className="CUP_Creatures_Military_Taki";
+			name="CUP_Creatures_Military_Taki";
+		};
+		class Item8
+		{
+			className="rhsusf_c_troops";
+			name="RHSUSF Infantry & Equipment";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item9
+		{
+			className="rhsusf_c_weapons";
+			name="RHSUSF Weapons & Accessories";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item10
+		{
+			className="rhsusf_sounds";
+			name="USF Sounds";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
 		class Item11
+		{
+			className="rhsusf_weapon_sounds";
+			name="USF Sounds";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item12
+		{
+			className="ace_compat_rhs_usf3";
+			name="ACE3 - RHS USF Compatibility";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item13
+		{
+			className="acre_main";
+			name="ACRE2 - Main";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item14
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item12
+		class Item15
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item16
 		{
 			className="rhsusf_vehicles";
 			name="rhsusf_vehicles";
 		};
-		class Item14
+		class Item17
 		{
 			className="UK3CB_Factions_CHC";
 			name="3CB Factions - CHC";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item15
+		class Item18
 		{
 			className="UK3CB_Factions_TKC";
 			name="3CB Factions - TKC";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item16
+		class Item19
 		{
 			className="CUP_WheeledVehicles_Skoda";
 			name="CUP_WheeledVehicles_Skoda";
 		};
-		class Item17
+		class Item20
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item21
 		{
 			className="A3_Structures_F_Enoch";
 			name="Arma 3 Contact Platform - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item22
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item23
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item21
+		class Item24
 		{
 			className="acre_api";
 			name="ACRE2 - API";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item22
+		class Item25
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
@@ -14384,6 +14402,30 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_04";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_06";
+								isBackpack=0;
+							};
+							watch="ItemWatch";
+							goggles="CUP_G_TK_RoundGlasses_gold";
+						};
 					};
 					id=48;
 					type="CUP_C_TK_Man_04";
@@ -14413,6 +14455,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_04";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_05";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_White_Scarf_Shades";
+						};
 					};
 					id=50;
 					type="CUP_C_TK_Man_04_Jack";
@@ -14442,6 +14510,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_04";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_RGR_Dark";
+						};
 					};
 					id=52;
 					type="CUP_C_TK_Man_04_Waist";
@@ -14473,6 +14567,25 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_07";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_KHK_Scarf_Tan";
+						};
 					};
 					id=54;
 					type="CUP_C_TK_Man_07";
@@ -14502,6 +14615,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_07";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket1_05";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=56;
 					type="CUP_C_TK_Man_07_Coat";
@@ -14531,6 +14669,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_07";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=58;
 					type="CUP_C_TK_Man_07_Waist";
@@ -14560,6 +14723,24 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_08";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							watch="ItemWatch";
+						};
 					};
 					id=60;
 					type="CUP_C_TK_Man_08";
@@ -14589,6 +14770,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_08";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_05";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_TK_RoundGlasses_blk";
+						};
 					};
 					id=62;
 					type="CUP_C_TK_Man_08_Jack";
@@ -14618,6 +14825,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_08";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_02";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_KHK_Dark";
+						};
 					};
 					id=64;
 					type="CUP_C_TK_Man_08_Waist";
@@ -14647,6 +14880,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_05";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket1_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_BLK_Scarf_Face_Blk";
+						};
 					};
 					id=66;
 					type="CUP_C_TK_Man_05_Coat";
@@ -14676,6 +14935,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_05";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_KHK_Scarf_Tan_GPS";
+						};
 					};
 					id=68;
 					type="CUP_C_TK_Man_05_Jack";
@@ -14705,6 +14990,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_05";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_03";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=70;
 					type="CUP_C_TK_Man_05_Waist";
@@ -14734,6 +15044,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket1_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_BLK_Scarf_Face_Blk";
+						};
 					};
 					id=72;
 					type="CUP_C_TK_Man_06_Coat";
@@ -14763,6 +15099,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_KHK_Dark";
+						};
 					};
 					id=74;
 					type="CUP_C_TK_Man_06_Jack";
@@ -14792,6 +15154,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=76;
 					type="CUP_C_TK_Man_06_Waist";
@@ -14821,6 +15208,25 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_02";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_RGR_Dark";
+						};
 					};
 					id=78;
 					type="CUP_C_TK_Man_02";
@@ -14850,6 +15256,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_02";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_02";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=80;
 					type="CUP_C_TK_Man_02_Jack";
@@ -14879,6 +15310,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_02";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_01";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=82;
 					type="CUP_C_TK_Man_02_Waist";
@@ -14908,6 +15364,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_01";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_02";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_Tan_Scarf_Shades_GPSCombo";
+						};
 					};
 					id=84;
 					type="CUP_C_TK_Man_01_Waist";
@@ -14937,6 +15419,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_01";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket1_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_GPS";
+						};
 					};
 					id=86;
 					type="CUP_C_TK_Man_01_Coat";
@@ -14966,6 +15474,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_01";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_03";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=88;
 					type="CUP_C_TK_Man_01_Jack";
@@ -14995,6 +15528,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_03";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket1_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_BLK_Ember";
+						};
 					};
 					id=90;
 					type="CUP_C_TK_Man_03_Coat";
@@ -15024,6 +15583,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_03";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket5_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_RGR_Facewrap_Ranger";
+						};
 					};
 					id=92;
 					type="CUP_C_TK_Man_03_Jack";
@@ -15095,6 +15680,31 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_03";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_04";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
 					};
 					id=94;
 					type="CUP_C_TK_Man_03_Waist";
@@ -15124,6 +15734,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_KHK_Facewrap_White";
+						};
 					};
 					id=96;
 					type="CUP_C_TK_Man_06_Waist";
@@ -15155,6 +15791,25 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_08";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_BLK_Facewrap_Black_GPS";
+						};
 					};
 					id=98;
 					type="CUP_C_TK_Man_08";
@@ -15184,6 +15839,25 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_04";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_RGR_Facewrap_Skull";
+						};
 					};
 					id=100;
 					type="CUP_C_TK_Man_04";
@@ -15213,15 +15887,43 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_02";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_01";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_TK_NeckScarf";
+						};
 					};
 					id=102;
 					type="CUP_C_TK_Man_02_Waist";
+					atlOffset=7.6293945e-006;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=101;
+			atlOffset=7.6293945e-006;
 		};
 		class Item30
 		{
@@ -15243,6 +15945,32 @@ class Mission
 					{
 						isPlayer=1;
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_TK_NeckScarf";
+						};
 					};
 					id=104;
 					type="CUP_C_TK_Man_06_Waist";
@@ -15314,6 +16042,32 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_O_TKI_Khet_Partug_06";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_OI_TKI_Jacket6_06";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="CUP_G_ESS_CBR_Facewrap_Red";
+						};
 					};
 					id=106;
 					type="CUP_C_TK_Man_06_Waist";
@@ -15444,7 +16198,7 @@ class Mission
 					};
 					id=176;
 					type="rhsusf_army_ocp_arb_autorifleman";
-					atlOffset=3.8146973e-006;
+					atlOffset=-3.4332275e-005;
 				};
 				class Item6
 				{
@@ -15932,7 +16686,6 @@ class Mission
 			};
 			id=216;
 			type="UK3CB_TKC_C_Ural_Empty";
-			atlOffset=3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16127,7 +16880,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6127.5571,71.197372,11055.479};
-				angles[]={-0,0,0.001544081};
+				angles[]={0,0,0.001544081};
 			};
 			side="Empty";
 			flags=4;
