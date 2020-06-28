@@ -1,4 +1,5 @@
 [] spawn {
+	sleep 5;
 	_cacheName = "cache";
 	_centerMarkerName = "center";
 	_radius = 250;
@@ -53,10 +54,7 @@ setupTerroristStart = {
 
 	{
 		_terroristPosition = _buildingPositions select _forEachIndex;
-		_x setPosATL _terroristPosition;
-		
-		
-		
+		_x setPosATL _terroristPosition;	
 	} forEach _terrorists;
 
 	_cache setPosATL (_buildingPositions select (count _terrorists));
@@ -87,6 +85,6 @@ getSidePlayers = {
 		{
 			_players pushBack _x;
 		}
-	} forEach allPlayers;
+	} forEach allUnits;;
 	_players;
 };
