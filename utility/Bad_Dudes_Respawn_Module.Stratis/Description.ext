@@ -29,7 +29,6 @@ class CfgFunctions
 
 class CfgRespawnTemplates
 {
-	// class used in respawnTemplates entry
 	class BDRM_respawn
 	{
 		respawnOnStart = 0;

@@ -14,6 +14,6 @@ if(_aboveTerrainLevel == 0) then {
 	_parachuteVehicleType = getText(getMissionConfig "BDRMConfig" >> "parachuteVehicle");
 	_chute = _parachuteVehicleType createVehicle _pos;
 	[_chute, _aboveTerrainLevel, _pos, "ATL"] call BIS_fnc_setHeight;
-	_player moveIndriver _chute;
+	_player moveInAny _chute;
 }
 
