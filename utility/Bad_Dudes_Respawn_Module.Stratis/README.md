@@ -2,6 +2,12 @@
 
 The Bad Dudes Repsawn Module (BDRM) is a set up scripts for configuring respawn mechanics for missions of the Bad Dudes ARMA group.
 
+In addition, BDRM provides a workaround for the incompatibility of the `MenuPosition` and `ace_specatator` respawn templates. This allows the use of the ACE Specator camera with a player triggered respawn, mimicing the use of the `MenuPosition` respawn template with the `Spectator` template.
+
+To download visit the [Github Repository](https://github.com/Oronar/armamissions/tree/feature/bdrm), select the `Code` dropdown menu, and select `Download as ZIP` option. The relevant files are located in the `utility/Bad_Dudes_Respawn_Module.Stratis` directory.
+
+In the future the BDRM may be moved into its own repository for ease of access.
+
 ## Basic Setup
 ### Mission Setup
 1. Copy the `bdrm` folder to your mission's root directory.
