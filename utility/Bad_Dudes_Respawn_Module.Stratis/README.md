@@ -55,17 +55,10 @@ An alternative configuration where players respawn at the latest object activate
 ## Spotting Scope Respawn
 WIP
 
-### Mission Setup
-WIP
-### Configuration
+## Flare Respawn
 WIP
 
 ## ACE Tagging Respawn
-WIP
-
-### Mission Setup
-WIP
-### Configuration
 WIP
 
 ## Parachute Respawn
