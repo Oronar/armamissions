@@ -1,1 +1,1 @@
-execVM "bdrm\scripts\addSpectatorEventHandler.sqf";
+execVM "bdrm\scripts\setupServer.sqf";

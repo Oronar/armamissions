@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1876.3732,45.741409,5697.5195};
-		dir[]={0.18437943,-0.58757788,0.78794521};
-		up[]={0.13388216,0.80915076,0.57214743};
-		aside[]={0.9737494,-2.6915586e-007,-0.22785564};
+		pos[]={1865.7906,17.10487,5739.415};
+		dir[]={0.81188112,-0.54330581,-0.21399857};
+		up[]={0.52539879,0.83950794,-0.13848568};
+		aside[]={-0.25489482,-3.2524258e-007,-0.96703809};
 	};
 };
 binarizationWanted=0;
@@ -240,7 +240,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=4;
 		class Item0
 		{
 			dataType="Group";
@@ -407,14 +407,6 @@ class Mission
 		};
 		class Item2
 		{
-			dataType="Marker";
-			position[]={1721.3284,5.5,5733.8032};
-			name="bdrm_respawn";
-			type="mil_circle";
-			id=6;
-		};
-		class Item3
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -431,7 +423,7 @@ class Mission
 			type="Box_East_Ammo_F";
 			atlOffset=-2.3841858e-006;
 		};
-		class Item4
+		class Item3
 		{
 			dataType="Object";
 			class PositionInfo

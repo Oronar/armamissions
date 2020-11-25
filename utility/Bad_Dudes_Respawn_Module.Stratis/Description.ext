@@ -1,12 +1,13 @@
 respawn = "BASE";
-respawnTemplates[] = { "BDRM_respawn", "BDRM_respawn_gear" };
+respawnTemplates[] = { "BDRM_respawn" };
 
 class BDRMConfig {
 	respawnMarkerName = "bdrm_respawn";
-	loadoutVariableName = "BDRM_savedLoadout";
+	sideRespawnMarkerName = "respawn_west";
+	loadoutVariableName = "bdrm_savedLoadout";
 	respawnDistanceMinimum = 1;
 	respawnDistanceMaximum = 10;
-	parachuteRespawnATL = 200;
+	parachuteRespawnATL = 0;
 	parachuteVehicle = "rhs_d6_Parachute";
 }
 
@@ -33,10 +34,6 @@ class CfgRespawnTemplates
 		respawnOnStart = 0;
 		respawnButton = 1;
 		onPlayerKilled = "bdrm\scripts\onPlayerKilled.sqf";
-	};
-
-	class BDRM_respawn_gear
-	{
 		onPlayerRespawn = "BDRM_fnc_loadPlayerLoadout";
-	}
+	};
 };
