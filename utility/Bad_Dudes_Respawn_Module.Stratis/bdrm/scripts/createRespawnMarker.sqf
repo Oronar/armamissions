@@ -9,5 +9,5 @@ if(getMarkerType _respawnMarkerName == "") then {
 	} else {
 		createMarker [_respawnMarkerName, getMarkerPos _sideRespawnMarkerName];
 		_respawnMarkerName setMarkerType "respawn_inf";
-	}
-}
+	};
+};

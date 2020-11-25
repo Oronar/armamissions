@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=11;
+		nextID=12;
 	};
 	class MarkerIDProvider
 	{
@@ -45,13 +45,14 @@ addons[]=
 	"ace_chemlights",
 	"A3_Ui_F",
 	"A3_Weapons_F_Ammoboxes",
-	"A3_Soft_F_Enoch_Truck_01"
+	"A3_Soft_F_Enoch_Truck_01",
+	"A3_Structures_F_Mil_Flags"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=17;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -158,6 +159,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item16
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=3532564;
@@ -240,7 +248,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=5;
 		class Item0
 		{
 			dataType="Group";
@@ -410,18 +418,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1886.1796,5.8335023,5728.7993};
-				angles[]={6.278194,0,0.0024897563};
+				position[]={1886.1793,5.8335042,5728.7993};
+				angles[]={6.2781935,0,0.0024958209};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="bdrm_respawn";
+				name="bdrm_respawn_disabled";
 			};
 			id=7;
 			type="Box_East_Ammo_F";
-			atlOffset=-2.3841858e-006;
 		};
 		class Item3
 		{
@@ -439,6 +446,22 @@ class Mission
 			id=9;
 			type="B_Truck_01_cargo_F";
 			atlOffset=9.5367432e-007;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1867.156,9.4768047,5703.4741};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{[this] execVM ""bdrm\scripts\helpers\addSetRespawnPositionAction.sqf"";}";
+			};
+			id=11;
+			type="Flag_Altis_F";
 		};
 	};
 };
