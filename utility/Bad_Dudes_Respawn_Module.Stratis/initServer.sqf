@@ -1,1 +1,1 @@
-execVM "bdrm\scripts\setupServer.sqf";
+execVM "bdrm\scripts\setup\setupServer.sqf";
