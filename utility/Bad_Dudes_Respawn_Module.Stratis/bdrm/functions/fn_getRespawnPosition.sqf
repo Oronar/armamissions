@@ -9,11 +9,8 @@ if (not isNull _respawnObject ) then {
 	if(getMarkerType _respawnMarkerName != "") then {
 		_respawnPosition = getMarkerPos _respawnMarkerName;
 	} else {		
-		hint getMarkerType _respawnMarkerName;
 		diag_log format ["BDRM respawn marker/object %1 not found", _respawnMarkerName];
 	}
 };
-
-_respawnPosition = [_respawnPosition, 1, 10] call BIS_fnc_findSafePos;
 
 _respawnPosition
