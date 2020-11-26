@@ -7,13 +7,16 @@ class BDRMConfig {
 	loadoutVariableName = "bdrm_savedLoadout";
 	respawnDistanceMinimum = 1;
 	respawnDistanceMaximum = 10;
-	parachuteRespawnATL = 0;
-	parachuteVehicle = "rhs_d6_Parachute";
 
 	class EnterVehicleTypeRespawn {
 		active = 0;
 		vehicleType = "ace_spottingscopeobject";
-	}
+	};
+
+	class ParachuteRespawn {
+		aboveTerrainLevel = 100;
+		vehicleType = "rhs_d6_Parachute";
+	};
 }
 
 class CfgFunctions

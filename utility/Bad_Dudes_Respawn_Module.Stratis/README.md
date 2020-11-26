@@ -87,8 +87,10 @@ Parachute respawn is used in conjunction with the above respawn mechanics. Playe
 * `loadoutVariableName` - variable name used internally for saving loadouts
 * `respawnDistanceMinimum` - minimum distance to search for a safe position to respawn near current respawn position
 * `respawnDistanceMaximum` - maximum distance to search for a safe position to respawn near current respawn position
-* `parachuteRespawnATL` - height above terrain level players will respawn
-* `parachuteVehicle` - vehicle class used for player parachute if `parachuteRespawnATL` is greater than 0
+* `EnterVehicleTypeRespawn.active` - 1: enables EnterVehicleTypeRespawn, 0: disables
+* `EnterVehicleTypeRespawn.vehicleType` - vehicle type used for EnterVehicleTypeRespawn
+* `ParachuteRespawn.aboveTerrainLevel` - height above terrain level players will respawn
+* `ParachuteRespawn.vehicleType` - vehicle class used for player parachute if `aboveTerrainLevel` is greater than 0
 
 # Configuration Notes
 1. If the ARMA respawn marker (e.g. `respawn_west`) is placed at an alternate location because the mission start is not a safe location then the BDRM respawn marker should be manually created in Eden and placed at the starting location.
