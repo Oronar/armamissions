@@ -52,14 +52,20 @@ An alternative configuration where players respawn at the latest object activate
 ### Configuration
 1. Follow the steps for **Configuration** in **Basic Setup**
 
-## Spotting Scope Respawn
-WIP
+## Enter Vehicle Type Respawn (aka Dude Tube)
+An alternative configuration intended to be used with the ACE Spotting Scope. When a unit enters a configured vehicle type the respawn position is relocated to the vehicle's position. When used with the ACE spotting scope this provides a respawn position that can be carried in a player's inventory.
 
-## Flare Respawn
-WIP
+### Mission Setup
+1. Follow the steps for **Mission Setup** in **Basic Setup**
+2. Add an ACE spotting scope (`ace_spottingscopeobject`) to the starting location or to a player unit's inventory.
 
-## ACE Tagging Respawn
-WIP
+### Configuration
+1. Follow the steps for **Configuration** in **Basic Setup**
+2. In `Description.ext` set the `EnterVehicleTypeRespawn.active` value to `1`
+
+## In Development
+* Flare Respawn
+* ACE Tagging Respawn
 
 ## Parachute Respawn
 Parachute respawn is used in conjunction with the above respawn mechanics. Players will respawn in the air above the respawn position with a deployed parachute.

@@ -11,7 +11,7 @@ class BDRMConfig {
 	parachuteVehicle = "rhs_d6_Parachute";
 
 	class EnterVehicleTypeRespawn {
-		active = 1;
+		active = 0;
 		vehicleType = "ace_spottingscopeobject";
 	}
 }
