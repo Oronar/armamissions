@@ -9,6 +9,11 @@ class BDRMConfig {
 	respawnDistanceMaximum = 10;
 	parachuteRespawnATL = 0;
 	parachuteVehicle = "rhs_d6_Parachute";
+
+	class EnterVehicleTypeRespawn {
+		active = 1;
+		vehicleType = "ace_spottingscopeobject";
+	}
 }
 
 class CfgFunctions
@@ -23,6 +28,7 @@ class CfgFunctions
 			class respawnPlayer {};
 			class getRespawnPosition {};
 			class setRespawnMarkerPosition {};
+			class diag_log {};
 		};
 	};
 };
