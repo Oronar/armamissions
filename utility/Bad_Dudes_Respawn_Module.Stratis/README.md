@@ -2,7 +2,7 @@
 
 The Bad Dudes Repsawn Module (BDRM) is a set up scripts for configuring respawn mechanics for missions of the Bad Dudes ARMA group.
 
-In addition, BDRM provides a workaround for the incompatibility of the `MenuPosition` and `ace_specatator` respawn templates. This allows the use of the ACE Specator camera with a player triggered respawn, mimicing the use of the `MenuPosition` respawn template with the `Spectator` template.
+In addition, BDRM provides a workaround for the incompatibility of the `MenuPosition` and `ace_specatator` respawn templates. This allows the use of the ACE Specator camera with a player triggered respawn, mimicing the use of the `MenuPosition` and `Spectator` respawn templates.
 
 To download visit the [Github Repository](https://github.com/Oronar/armamissions/tree/feature/bdrm), select the `Code` dropdown menu, and select `Download as ZIP` option. The relevant files are located in the `utility/Bad_Dudes_Respawn_Module.Stratis` directory.
 
@@ -22,23 +22,23 @@ In the future the BDRM may be moved into its own repository for ease of access.
 
 ### Configuration
 1. In `Description.ext` locate the `sideRespawnMarkerName` value and set it to the respawn marker set in Basic Setup (e.g. `respawn_west`, `respawn_east` etc.)
-  * Note the default value is `respawn_west` and does not need to be changed if players are BLUFOR.
+    * Note the default value is `respawn_west` and does not need to be changed if players are BLUFOR.
 
 # Alternative Setups
 
 ## Object Location Respawn (aka Box Respawn)
-An alternative configuration where players will respawn near the location of an object. This object can be mobile and moved via ACE cargo loading and ACE carry/drag to allow players to relocate their spawn location.
+An alternative configuration where players will respawn near the location of an object. This object can be mobile and moved via ACE cargo loading and ACE carry/drag to allow players to relocate their respawn position.
 
 ### Mission Setup
 1. Follow the steps for **Mission Setup** in **Basic Setup**
-2. Add an object in Eden that cannot be picked up but can be moved via ACE carry/crag mechanics, such as an ammo box.
+2. Add an object in Eden that cannot be picked up but can be moved via ACE carry/drag mechanics, such as an ammo box.
 3. Set the object's `Variable Name` to the value indicated by the `respawnMarkerName` configuration value in `Description.ext`. By default this value is `bdrm_respawn`.
 
 ### Configuration
 1. Follow the steps for **Configuration** in **Basic Setup**
   
 ## Object Action Respawn (aka Flag Respawn)  
-An alternative configuration where players respawn at the latest object activated by an action. Players interact with the object via an action to relocate the spawn position to their current position.
+An alternative configuration where players respawn at the latest object activated by an action. Players interact with the object via an action to relocate the respawn position to their current position.
 
 ### Mission Setup
 1. Follow the steps for **Mission Setup** in **Basic Setup**
@@ -62,7 +62,7 @@ WIP
 WIP
 
 ## Parachute Respawn
-Parachute respawn is used in conjunction with the above respawn mechanics and respawns players in the air with a deployed parachute.
+Parachute respawn is used in conjunction with the above respawn mechanics. Players will respawn in the air above the respawn position with a deployed parachute.
 
 ### Mission Setup
 1. Follow the steps for **Mission Setup** in any of the above sections.
@@ -82,11 +82,11 @@ Parachute respawn is used in conjunction with the above respawn mechanics and re
 * `respawnDistanceMinimum` - minimum distance to search for a safe position to respawn near current respawn position
 * `respawnDistanceMaximum` - maximum distance to search for a safe position to respawn near current respawn position
 * `parachuteRespawnATL` - height above terrain level players will respawn
-* `parachuteVehicle` - vehicle class used for player parachute if ATL is greater than 0
+* `parachuteVehicle` - vehicle class used for player parachute if `parachuteRespawnATL` is greater than 0
 
 # Configuration Notes
 1. If the ARMA respawn marker (e.g. `respawn_west`) is placed at an alternate location because the mission start is not a safe location then the BDRM respawn marker should be manually created in Eden and placed at the starting location.
     * The name of this marker is controlled by the `sideRespawnMarkerName` configuration value and is `bdrm_respawn` by default.
 2. Using an object respawn setup will override the BDRM respawn marker. If the object is destroyed respawns will default to the marker location.
-3. If a BDRM respawn marker is not created manually in Eden then one will be created at the position of the marker indicated by `sideRespawnMarkerName` at mission start.
+3. If a BDRM respawn marker is not created manually in Eden then one will be created at the position of the marker indicated by `respawnMarkerName` at mission start.
 4. Object Respawn (aka Box Respawn) will continue to work even if the object is loaded into a vehicle.
