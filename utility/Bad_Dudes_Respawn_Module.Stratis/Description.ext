@@ -40,6 +40,6 @@ class CfgRespawnTemplates
 		respawnOnStart = 0;
 		respawnButton = 1;
 		onPlayerKilled = "bdrm\scripts\onPlayerKilled.sqf";
-		onPlayerRespawn = "BDRM_fnc_loadPlayerLoadout";
+		onPlayerRespawn = "bdrm\scripts\onPlayerRespawn.sqf";
 	};
 };
