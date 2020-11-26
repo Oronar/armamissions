@@ -3,7 +3,8 @@ params ["_newPos"];
 _respawnMarkerName = getText(getMissionConfig "BDRMConfig" >> "respawnMarkerName");
 
 if(getMarkerType _respawnMarkerName != "") then {
+	[format ["Respawn position update (%1)", _newPos]] call BDRM_fnc_diag_log;
 	_respawnMarkerName setMarkerPos _newPos;
 } else {		
-	diag_log format ["BDRM respawn marker/object %1 not found", _respawnMarkerName];
+	[format ["Respawn marker/object %1 not found", _respawnMarkerName]] call BDRM_fnc_diag_log;
 }

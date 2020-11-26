@@ -5,6 +5,7 @@ setMarkerPosition = {
 
 	_newPos = getPos _target;
 	[_newPos] call BDRM_fnc_setRespawnMarkerPosition;
+	[format ["ObjectActionRespawn position update triggered", _newPos]] call BDRM_fnc_diag_log;
 };
 
 _object addAction [_actionText,
